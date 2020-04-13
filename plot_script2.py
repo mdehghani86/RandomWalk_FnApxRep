@@ -19,7 +19,7 @@ plt2_label_dict = {"td_agent": "RMSVE\n averaged\n over\n 20 runs",
 # Function to plot result
 def plot_result(data_name_array):
     
-    true_V = np.load('data/true_V.npy')
+    true_V = np.load('RandomWalk_FnApxRep/data/true_V.npy')
 
     plt1_agent_sweeps = []
     plt2_agent_sweeps = []
