@@ -3,7 +3,7 @@
 """RandomWalk environment class for RL-Glue-py.
 """
 
-from environment import BaseEnvironment
+from RandomWalk_FnApxRep.environment import BaseEnvironment
 import numpy as np
 
 class RandomWalkEnvironment(BaseEnvironment):
